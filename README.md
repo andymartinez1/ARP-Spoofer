@@ -8,18 +8,24 @@ This is a simple ARP spoofing tool written in Python using the Scapy library. It
 - Scapy library
 
 ## Installation
+To install NetworkScanner, follow these steps:
 
-1. Install Python 3.x from [python.org](https://www.python.org/).
-2. Install Scapy using pip:
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/andymartinez1/ARP-Spoofer.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd ARP-Spoofer
+   ```
+3. Install the required dependencies:
    ```sh
    pip install scapy
    ```
 
 ## Usage
 
-1. Clone the repository or download the script.
-2. Open a terminal and navigate to the directory containing the script.
-3. Run the script with root privileges:
+1. Run the script with root privileges:
    ```sh
    sudo python3 ARPSpoofer.py
    ```
@@ -35,3 +41,21 @@ To enable IP forwarding on Linux, run the following command:
 ```sh
    echo 1 > /proc/sys/net/ipv4/ip_forward
 ```
+ ## Contributing
+
+   I am open to contributions! Please follow these steps to contribute:
+
+   1. Fork the repository.
+   2. Create a new branch:
+      ```sh
+      git checkout -b feature-branch
+      ```
+   3. Make your changes and commit them:
+      ```sh
+      git commit -m "Description of your changes"
+      ```
+   4. Push to the branch:
+      ```sh
+      git push origin feature-branch
+      ```
+   5. Create a pull request.
